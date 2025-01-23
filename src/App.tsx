@@ -16,7 +16,7 @@ export const App = () => {
         </Typography.TitleResponsive>
 
         <Typography.Text className={appSt.subtitle} view="component" color="secondary">
-          Взрастите ваше денежное дерево
+          Вырастите ваше денежное дерево
         </Typography.Text>
 
         <div className={appSt.dotContainer}>
@@ -60,7 +60,7 @@ export const App = () => {
           view="primary"
           className={appSt.btn}
           href="alfabank://investments/open_investments_account?type=INVESTBOX"
-          onClick={() => window.gtag('event', 'openIK_4167_var1')}
+          onClick={() => window.gtag('event', 'openIK_4167_var2')}
         >
           <div className={appSt.btnContainer}>
             <div>
