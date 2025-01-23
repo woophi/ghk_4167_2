@@ -60,7 +60,7 @@ export const App = () => {
           view="primary"
           className={appSt.btn}
           href="alfabank://investments/open_investments_account?type=INVESTBOX"
-          onClick={() => window.gtag('event', 'openIK_4167')}
+          onClick={() => window.gtag('event', 'openIK_4167_var1')}
         >
           <div className={appSt.btnContainer}>
             <div>
